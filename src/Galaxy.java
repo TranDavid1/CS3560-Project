@@ -6,14 +6,14 @@ public class Galaxy
     int numOfStarSystems;
     int numOfClusters;
     int numOfNebulae;
-    int numOfBlackholes;
+    int numOfBlackHoles;
 
     public String getType() {
         return type;
     }
 
     public void setType( String t ) {
-        t = type;
+        type = t;
     }
 
     public Boolean getInteraction()
@@ -23,7 +23,7 @@ public class Galaxy
 
     public void setInteraction( Boolean i )
     {
-        i = interaction;
+        interaction = i;
     }
 
     public int getNumOfSolarSystems() {
@@ -31,7 +31,7 @@ public class Galaxy
     }
 
     public void setNumOfSolarSystems( int n ) {
-        n = numOfSolarSystems;
+        numOfSolarSystems = n;
     }
 
     public int getNumOfStarSystems() {
@@ -39,7 +39,7 @@ public class Galaxy
     }
 
     public void setNumOfStarSystems( int n ) {
-        n = numOfStarSystems;
+        numOfStarSystems = n;
     }
 
     public int getNumOfClusters() {
@@ -47,7 +47,7 @@ public class Galaxy
     }
 
     public void setNumOfClusters( int n ) {
-        n = numOfClusters;
+        numOfClusters = n;
     }
 
     public int getNumOfNebulae() {
@@ -55,14 +55,14 @@ public class Galaxy
     }
 
     public void setNumOfNebulae( int n ) {
-        n = numOfNebulae;
+        numOfNebulae = n;
     }
 
-    public int getNumOfBlackholes() {
-        return numOfBlackholes;
+    public int getNumOfBlackHoles() {
+        return numOfBlackHoles;
     }
 
-    public void setNumOfBlackholes( int n ) {
-        n = numOfBlackholes;
+    public void setNumOfBlackHoles( int n ) {
+        numOfBlackHoles = n;
     }
 }

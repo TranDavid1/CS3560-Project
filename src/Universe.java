@@ -7,8 +7,8 @@ public class Universe
         return numberOfGalaxies;
     }
 
-    public void setNumberOfGalaxies(int numOfGalaxies){
-        numberOfGalaxies = numOfGalaxies;
+    public void setNumberOfGalaxies(int n){
+        numberOfGalaxies = n;
     }
 
     public double getSize() {
@@ -16,6 +16,6 @@ public class Universe
     }
 
     public void setSize( double s) {
-        s = size;
+        size = s;
     }
 }

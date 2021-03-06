@@ -4,6 +4,7 @@ public class Comet
     double density;
     double mass;
     String orbitalCharacteristic;
+    String orbitsStar;
 
     public double getDimensions() {
         return dimensions;
@@ -35,5 +36,13 @@ public class Comet
 
     public void setOrbitalCharacteristic( String oc ) {
         orbitalCharacteristic = oc;
+    }
+
+    public String getOrbitsStar() {
+        return orbitsStar;
+    }
+
+    public void setOrbitsStar( String os ) {
+        orbitsStar = os;
     }
 }

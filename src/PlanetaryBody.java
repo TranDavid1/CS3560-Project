@@ -1,25 +1,24 @@
 public interface PlanetaryBody
 {
     public double getMass();
-    public void setMass();
+    public void setMass( double m );
     public double getSize();
-    public void setSize();
+    public void setSize( double s );
     public double getDiameter();
-    public void setDiameter();
+    public void setDiameter( double d );
     public double getDensity();
-    public void setDensity();
+    public void setDensity( double d );
     public double getRotation();
-    public void setRotation();
+    public void setRotation( double r );
     public double getAxisTilt();
-    public void setAxisTilt();
+    public void setAxisTilt( double at );
     public double getSurfaceGravity();
-    public void setSurfaceGravity();
+    public void setSurfaceGravity( double sg );
     public double getComposition();
-    public void setComposition();
+    public void setComposition( double c );
     public String getPosition();
-    public void setPosition();
-    public String getOrbitEntity();
-    public void setOrbitEntity();
+    public void setPosition( String p );
     public double getOrbitalSpeed();
-    public void setOrbitalSpeed();
+    public void setOrbitalSpeed( double os );
+    public void setOrbitalSpeed( String os );
 }

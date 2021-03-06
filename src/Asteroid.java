@@ -1,4 +1,4 @@
-public abstract class Planet implements PlanetaryBody
+public abstract class Asteroid implements PlanetaryBody
 {
     double mass;
     double size;
@@ -10,8 +10,7 @@ public abstract class Planet implements PlanetaryBody
     double composition;
     String position;
     double orbitalSpeed;
-    String type;
-    int numberOfMoons;
+    String orbitsStar;
 
     @Override
     public double getMass() {
@@ -113,19 +112,11 @@ public abstract class Planet implements PlanetaryBody
         orbitalSpeed = os;
     }
 
-    public String getType() {
-        return type;
+    public String getOrbitsStar() {
+        return orbitsStar;
     }
 
-    public void setType( String t ) {
-        type = t;
-    }
-
-    public int getNumberOfMoons() {
-        return numberOfMoons;
-    }
-
-    public void setNumberOfMoons( int n ) {
-        numberOfMoons = n;
+    public void setOrbitsStar( String os ) {
+        orbitsStar = os;
     }
 }

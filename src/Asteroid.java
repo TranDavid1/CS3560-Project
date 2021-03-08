@@ -1,4 +1,4 @@
-public abstract class Asteroid implements PlanetaryBody
+public abstract class Asteroid extends PlanetaryBody
 {
     double mass;
     double size;

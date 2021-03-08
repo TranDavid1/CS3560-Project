@@ -1,4 +1,4 @@
-public abstract class Moon implements PlanetaryBody
+public abstract class Moon extends PlanetaryBody
 {
     double mass;
     double size;

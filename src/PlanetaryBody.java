@@ -1,24 +1,24 @@
-public interface PlanetaryBody
+public abstract class PlanetaryBody
 {
-    public double getMass();
-    public void setMass( double m );
-    public double getSize();
-    public void setSize( double s );
-    public double getDiameter();
-    public void setDiameter( double d );
-    public double getDensity();
-    public void setDensity( double d );
-    public double getRotation();
-    public void setRotation( double r );
-    public double getAxisTilt();
-    public void setAxisTilt( double at );
-    public double getSurfaceGravity();
-    public void setSurfaceGravity( double sg );
-    public double getComposition();
-    public void setComposition( double c );
-    public String getPosition();
-    public void setPosition( String p );
-    public double getOrbitalSpeed();
-    public void setOrbitalSpeed( double os );
-    public void setOrbitalSpeed( String os );
+    public abstract double getMass();
+    public abstract void setMass( double m );
+    public abstract double getSize();
+    public abstract void setSize( double s );
+    public abstract double getDiameter();
+    public abstract void setDiameter( double d );
+    public abstract double getDensity();
+    public abstract void setDensity( double d );
+    public abstract double getRotation();
+    public abstract void setRotation( double r );
+    public abstract double getAxisTilt();
+    public abstract void setAxisTilt( double at );
+    public abstract double getSurfaceGravity();
+    public abstract void setSurfaceGravity( double sg );
+    public abstract double getComposition();
+    public abstract void setComposition( double c );
+    public abstract String getPosition();
+    public abstract void setPosition( String p );
+    public abstract double getOrbitalSpeed();
+    public abstract void setOrbitalSpeed( double os );
+    public abstract void setOrbitalSpeed( String os );
 }

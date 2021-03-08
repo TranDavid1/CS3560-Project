@@ -1,4 +1,4 @@
-public abstract class Planet implements PlanetaryBody
+public abstract class Planet extends PlanetaryBody
 {
     double mass;
     double size;
